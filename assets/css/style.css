@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+ 	align-items: center;
+ 	min-height: 100vh;
+	background: #D4E0DC;
+}
+
+.calculator {
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+	padding-bottom: 20px;
+	width: 400px;
+	background-color: #6A4C4A;
+	border-radius: 25px;
+}
+
+.calculator-screen {
+	width: 100%;
+	height: 100px;
+	background-color:#FFB7B2;
+	color: #6A4C4A;
+	text-align: right;
+	font-size: 36px;
+	border: none;
+	padding: 40px;
+	margin-bottom: 15px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.calculator-keys {
+	width: 100%;
+}
+
+.row {
+	display: flex;
+}
+
+button {
+	height: 70px;
+	background-color: #FFDAC1;
+	border: 1px solid #F0FFD8;
+	font-size: 32px;
+	font-family: 'Patrick Hand', cursive;
+	color: #6A4C4A;
+	width: 25%;
+	outline: none;
+	border-radius: 7px;
+	margin: 5px;
+}
+
+.all-clear, .zero-btn {
+	width: 50%
+}
+
+.operator, .equal-sign {
+	background-color: #B5EAD7;
+}
+
+button:hover {
+	background-color: #FFEAC6;
+}
+
+.operator:hover, .equal-sign:hover {
+	background-color: #C5FFEA;
+}
+
+p {
+	font-size: 12px;
+	color: #C5FFEA;
+	padding-top: 15px;
+	font-family: 'Patrick Hand', cursive;
+}
